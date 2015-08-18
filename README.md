@@ -1,4 +1,4 @@
-# KerbalFlightPlan
+# Kerbal Flight Plan
 A KSP-mod to create and manage notes for ships and in general
 
 Ever forgot what a probe was supposed to do? what experiments you plan to send next to a celestial body?
