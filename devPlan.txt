@@ -1,0 +1,19 @@
+planned features and structure:
+
+features:
+  - toolbar button that brings up the main window
+  - main window is divided in categories: ships, celestial bodys, general
+  - optional: ship notes allow to jump to the specific ship
+  - all notes can be created, edited, deleted
+  - notes on ships can be reached via right click on command module / ship in general
+  - all notes are persistent to a specific save
+  - CKAN updater integration
+  
+  
+structure:
+  - storing all items in main as a hashable list
+  - creating the hashtable on startup
+  - every change updates the hastable and stores it as a list
+  - every item has an id
+  - ships store the id on a note module field
+  - updates to ship notes have to change the id on the ship if needed
